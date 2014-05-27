@@ -10,5 +10,9 @@ echo "Please check environment variables etc, this script can be executed ONLY w
 echo "When tasks done, type \"exit\" to return"
 echo ""
 
-bash
-
+apt-get install git
+cd /tmp
+git clone https://github.com/YunoHost/install_script.git
+cd install_script/
+chmod +x autoinstall_yunohostv2
+./autoinstall_yunohostv2
