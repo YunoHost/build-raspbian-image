@@ -194,6 +194,7 @@ iface eth0 inet dhcp
 
 echo "vchiq
 snd_bcm2835
+ipv6
 " >> etc/modules
 
 echo "console-common	console-data/keymap/policy	select	Select keymap from full list
